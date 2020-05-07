@@ -1,8 +1,8 @@
 import { EmailMessage, EventReservation, WithContext } from "schema-dts";
 
 import { get } from "lodash";
-import { ParserResponse } from "../types/ParserResponse";
-import { EventData } from "../types/EventData";
+import { ParserResponse } from "../interfaces/ParserResponse";
+import { EventData } from "../interfaces/EventData";
 
 const eventReservationParser = (linkedData: EventReservation): EventData => {
   const customerName = get(linkedData, "underName.name");

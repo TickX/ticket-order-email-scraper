@@ -1,4 +1,4 @@
-import { ParserResponse } from "../types/ParserResponse";
+import { ParserResponse } from "../interfaces/ParserResponse";
 import cheerio from "cheerio";
 import moment from "moment";
 

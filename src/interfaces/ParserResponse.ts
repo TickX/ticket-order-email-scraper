@@ -1,6 +1,6 @@
 import { EventData } from "./EventData";
 
-export declare type ParserResponse = {
+export interface ParserResponse {
   success: boolean;
   data?: EventData;
-};
+}

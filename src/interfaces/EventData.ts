@@ -1,4 +1,4 @@
-export declare type EventData = {
+export interface EventData {
   event: {
     name: string;
     reservationNumber: string;
@@ -8,4 +8,4 @@ export declare type EventData = {
     name: string;
     date: string;
   };
-};
+}
