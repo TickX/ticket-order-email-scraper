@@ -1,0 +1,539 @@
+Delivered-To: george@tickx.co.uk
+Received: by 2002:a67:eed0:0:0:0:0:0 with SMTP id o16csp4359275vsp;
+        Tue, 15 Jan 2019 05:30:19 -0800 (PST)
+X-Google-Smtp-Source: ALg8bN7wBVRzbq9iCzwnmjwIXjVEkfVXyYRfCEVm6jJrL6sibOn4jHnZsHFOUenIZajK7+8Rozy2
+X-Received: by 2002:a1c:2007:: with SMTP id g7mr3330837wmg.79.1547559019620;
+        Tue, 15 Jan 2019 05:30:19 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1547559019; cv=none;
+        d=google.com; s=arc-20160816;
+        b=ldRsDX63Wn/k6bfx1MqEjWBHPmEPInY3BePp9KxS5vyDlD8gifCrgNfPAD6X3KtyGw
+         E/j/pKY3U2yHkmI3LElkQ1qFDLVUVgnJb/Qw3aXD49C1A1q4Bz4nAZ/cJ521rEKPDK9q
+         smInr1HOEcKGVtaTZVIVBJC4Ls4eFuIzj6/xwT93FyH40IP0gQlmfQB8Mg1gNI91i6Of
+         3iEKULCQuA+hUDm67yXkRxCScTc3zpuELlY+PzOFbICnc1RhKbFuonIuw6t0joG7UhDQ
+         mDPEJGx11zXpk4qMsmYqi+7fPAv+edYa0Kg3Jy9rnZAEeiSRVWwASr5Dan7JVpbc2N/j
+         MC5A==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=mime-version:subject:date:cc:to:from:message-id;
+        bh=gamDSExFqPvxWKlXZS23viL5gkhCs/CuhdIjsUlXDvE=;
+        b=qmIuV1Rz+BxA3uF3eAH/ys+9uRZk4nEm8h3PpEGmwOzlo3BtPZ0cs7Gz9iALu5RUWk
+         oiTWXFuqnRH4C3W8EASpMxjBAbmTt+/HWJGhFd/+GskLj8T7b6SB3S3RT9YzWzWVNDc5
+         ws61Mv4I/LHmxU6NbIHY3typzfhqgwP2qc3HYW2tjnxiLGj8e/jT2ypk5nZ6NuRvIuYN
+         1QL1maiCBdJrd30h7EWL3NRCwSnC92Lq1fY3BXs41Ppj2Sx9bIdoF9r+POUbDd7O+3mh
+         NHlSx6xiLaXO8ygVzuUNlpMIS/x5xJ/sA55eVFlQKu/0fs/Xuu7oLtLGwoHTJKZ174nA
+         fW1Q==
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=pass (google.com: domain of donotreply@seetickets.com designates 167.98.14.196 as permitted sender) smtp.mailfrom=donotreply@seetickets.com
+Return-Path: <donotreply@seetickets.com>
+Received: from mail01.seetickets.com (mail03.seetickets.com. [167.98.14.196])
+        by mx.google.com with ESMTP id b128si20139226wmd.141.2019.01.15.05.30.19
+        for <george@tickx.co.uk>;
+        Tue, 15 Jan 2019 05:30:19 -0800 (PST)
+Received-SPF: pass (google.com: domain of donotreply@seetickets.com designates 167.98.14.196 as permitted sender) client-ip=167.98.14.196;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of donotreply@seetickets.com designates 167.98.14.196 as permitted sender) smtp.mailfrom=donotreply@seetickets.com
+Received: from ENFDFMAIL01 (unknown [10.15.10.81])
+	by mail01.seetickets.com (MTA) with ESMTP id 43fB4J58c4zTgGP
+	for <george@tickx.co.uk>; Tue, 15 Jan 2019 13:28:32 +0000 (GMT)
+Message-Id: <20191151328324353@ENFDFMAIL01>
+From: "SEE Tickets" <donotreply@seetickets.com>
+To: "" <george@tickx.co.uk>
+Cc: 
+Date: Tue, 15 Jan 2019 13:28:32 0000
+Subject: Ticket Order Confirmation 11112222
+X-Mailer: ExclamationSoft Corporation Mail Version 3.0
+X-MSMail-Priority: NORMAL
+MIME-Version: 1.0
+Content-Type: text/html
+x-msw-jemd-newsletter: false
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+Booking confirmation for White Lies at Albert Hall, Manchester</title>
+<meta name="format-detection" content="telephone=no">
+<!--[if !mso]>
+<!-->
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+<!--<![endif]-->
+<!--[if mso]>
+<style>
+* {
+font-family: Helvetica, Arial, Verdana!important;
+}
+</style>
+<![endif]-->
+<style type="text/css">
+/* What it does: Remove spaces around the email design added by some email clients. */
+/* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+html, body {
+margin: 0 !important;
+padding: 0 !important;
+height: 100% !important;
+width: 100% !important;
+font-family: Helvetica, Arial, 'Roboto';
+font-size: 16px;
+color: #3E3F40;
+}
+ .fluid {
+width: 100%;
+height: auto;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+/* What it does: Forces Outlook.com to display emails full width. */
+ .ExternalClass {
+width: 100%;
+}
+/* What is does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table, th {
+mso-table-lspace: 0pt !important;
+mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+border-spacing: 0 !important;
+border-collapse: collapse !important;
+table-layout: fixed !important;
+margin: 0 auto !important;
+}
+table table table {
+table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+-ms-interpolation-mode: bicubic;
+}
+/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+ .yshortcuts a {
+border-bottom: none !important;
+}
+/* What it does: Another work-around for iOS meddling in triggered links. */
+a[x-apple-data-detectors] {
+color: inherit !important;
+}
+ .stack-column-center {
+vertical-align: top;
+}
+ .preheader {
+display: none !important;
+}
+a {
+color: #0C9A9A;
+font-family: Helvetica, Arial, 'Roboto';
+text-decoration:none;
+}
+</style>
+<style type="text/css">
+[style*="Roboto"] {
+font-family: 'Roboto', Helvetica, Arial sans-serif !important
+}
+/* Media Queries */
+/* Styles for all devices under 600px*/
+@media screen and (max-width: 600px) {
+ .email-container {
+width: 100% !important;
+}
+/* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+ .fluid,
+ .fluid-centered {
+max-width: 100% !important;
+height: auto !important;
+margin-left: auto !important;
+margin-right: auto !important;
+}
+/* And center justify these ones. */
+ .fluid-centered {
+margin-left: auto !important;
+margin-right: auto !important;
+}
+/* What it does: Forces table cells into full-width rows. */
+ .mobile-row {
+display: inline-block !important;
+width: 100% !important;
+max-width: 100% !important;
+direction: ltr !important;
+vertical-align: top !important;
+}
+ .mobile-row.first {
+padding-bottom: 8px!important;
+background-color: #F1F1F1!important;
+}
+/* And left justify these ones. */
+ .stack-column-center {
+text-align: left !important;
+}
+/* START - Header */
+ .logo-img {
+text-align: left!important;
+padding-left: 0!important;
+}
+ .header-btn {
+width: 100%!important;
+}
+ .header-btn-wrapper {
+padding: 15px 0!important;
+text-align: left!important;
+}
+/* END - Header */
+/* START - Music Import */
+ .music-import-inner-wrapper {
+padding: 20px 8px!important;
+}
+ .music-import-inner-wrapper {
+width: 100%!important;
+}
+ .music-import-wrapper tr {
+padding: 15px!important;
+}
+ .music-import-icon {
+width: 18%!important;
+}
+ .music-import-text {
+width: 48%!important;
+}
+ .music-import-btn {
+width: 34%!important;
+}
+/* END - Music Import */
+/* START - Alerts */
+ .alerts-inner-wrapper {
+padding: 20px 8px!important;
+}
+ .alerts-inner-wrapper {
+width: 300px!important;
+}
+ .alerts-inner-wrapper-td {
+padding: 20px;
+}
+ .alerts-wrapper tr {
+padding: 15px!important;
+}
+ .alert-mobile-row {
+display: block!important;
+width: 100%!important;
+text-align: center!important;
+}
+ .alert-mobile-row.icon-heart {
+padding-top: 15px!important;
+padding-left: 0!important;
+}
+ .alert-mobile-row.icon-heart img {
+width: 35px!important;
+height: 30px!important;
+}
+ .alert-mobile-row.message-alert {
+padding: 15px 15px 35px 15px!important;
+width: 250px!important;
+}
+ .alert-mobile-row.btn-alert {
+height: 50px!important;
+background-color: #FFFFFF;
+}
+ .alert-mobile-row.btn-alert a {
+display: inline!important;
+border-left: 15px solid #0C9A9A!important;
+}
+ .alert-mobile-row.btn-alert a span{
+display: inline!important;
+width:auto!important;
+height: auto!important;
+color:#FFFFFF!important;
+overflow: auto!important;
+line-height: normal!important;
+}
+/* END - Alerts */
+/* START - Footer Styles*/
+ .social-links {
+margin: 0 3px;
+}
+ .social-links-spacer {
+display: none!important;
+}
+/* END - Footer Styles */
+}
+@media screen and (max-width: 450px) {
+ .mobile-table-450 {
+padding: 4px 0!important;
+}
+ .mobile-row-450 {
+display: inline-block !important;
+width: 100% !important;
+max-width: 100% !important;
+direction: ltr !important;
+vertical-align: top !important;
+}
+ .mobile-row-450 .stack-column-center {
+padding: 0!important;
+}
+}
+@media only screen and (max-width:480px) {
+ .mobile-hero-image .mobile-hero-td {
+width:100% !important;
+height: auto!important;
+overflow:visible !important; */
+float: none !important;
+display: block !important;
+}
+ .desktop-hero-image { display:none}
+}
+</style>
+</head>
+<body bgcolor="#F1F1F1" width="100%" height="100%" style="margin: 0;" yahoo="yahoo">
+<span style="display:none !important;" class="preheader">
+Booking confirmation for White Lies at Albert Hall, Manchester</span>
+<style data-ignore-inlining>
+@media print{ #_t { background-image: url('https://ykbay7vj.emltrk.com/ykbay7vj?p&d=11112222');}} div.OutlookMessageHeader {background-image:url('https://ykbay7vj.emltrk.com/ykbay7vj?f&d=11112222')} table.moz-email-headers-table {background-image:url('https://ykbay7vj.emltrk.com/ykbay7vj?f&d=11112222')} blockquote #_t {background-image:url('https://ykbay7vj.emltrk.com/ykbay7vj?f&d=11112222')} #MailContainerBody #_t {background-image:url('https://ykbay7vj.emltrk.com/ykbay7vj?f&d=11112222')}</style>
+<div id="_t">
+</div>
+<img src="https://ykbay7vj.emltrk.com/ykbay7vj?d=11112222" width="1" height="1" border="0" />
+<table bgcolor="#F1F1F1" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+<tr>
+<th>
+<center style="width: 100%;height: 100%;">
+<table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#F1F1F1" width="640" class="email-container">
+<tr class="header" style="height:90px; background-color:#FFFFFF;">
+<th align="center" valign="top" style="padding: 15px 15px 0px 15px;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+<tr style="background-color:#FFFFFF;">
+<th class="logo-img mobile-row" style="text-align: left; font-weight: normal; width: 30%;">
+<a href="https://www.seetickets.com">
+<img src="https://c.ststat.net/content/sites/seetickets/images/email/see-logo.gif" width="139" height="79" alt="See Tickets" border="0">
+</a>
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<tr style="background-color:#FFFFFF;">
+<th align="center" valign="top" style="padding: 10px 15px 10px 15px;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+<tr style="background-color:#FFFFFF;">
+<th style="text-align: left; font-weight: normal; width: 100%; color: #232323; font-size: 16px; line-height: 20px;">
+Hi MR GEORGE MICHAEL
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<tr style="background-color:#FFFFFF;">
+<th align="center" valign="top" style="padding: 10px 15px 10px 15px;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+<tr style="background-color:#FFFFFF;">
+<th style="text-align: left; font-weight: normal; width: 100%; color: #232323; font-size: 24px; line-height: 28px;">
+Order confirmed: White Lies
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<tr style="background-color:#FFFFFF;">
+<th align="center" valign="top" style="padding: 10px 15px 50px 15px;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+<tr style="background-color:#FFFFFF;">
+<th style="text-align: left; font-weight: normal; width: 100%; color: #0C9A9A; font-size: 16px; line-height: 24px;">
+BOOKING REFERENCE 11112222
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<tr style="background-color: #F1F1F1; height: 10px; width: 100%;">
+<th>
+</th>
+</tr>
+<tr class="main-promo-one">
+<th align="center" valign="top" style="padding: 0;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+<tr>
+<th style="text-align: left; font-weight: normal; padding: 10px 0; font-size: 22px; line-height: 28px;background-color:#FFFFFF;padding: 30px 10px 30px 10px;">
+<div>
+Order summary</div>
+<img style="display:block;" src="https://c.ststat.net/content/sites/seetickets/images/email/heading-border-bg-white.gif" width="40" height="12" alt="----">
+</th>
+</tr>
+<tr style="font-weight: normal;">
+<th style="font-weight: normal; font-family: Helvetica, Arial, 'Roboto'; font-size: 16px; line-height: 24px; mso-height-rule: exactly; color: #232323; padding: 10px; text-align: left; background-color:#FFFFFF; vertical-align: top;">
+<p style="font-weight: normal;font-size: 18px;">
+White Lies</p>
+Friday, 8 Feb 2019 at 18.00 <br>
+Doors open:18.00 <br>
+Albert Hall, Manchester
+</th>
+</tr>
+<tr style="background-color: #FFFFFF;">
+<th style="padding: 0 10px;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+<tr style="font-weight: normal;">
+<th style="width: 70%; font-weight: lighter; font-family: Helvetica, Arial, 'Roboto'; font-size: 16px; line-height: 24px; mso-height-rule: exactly; color: #232323; padding: 10px 0; text-align: left; background-color:#FFFFFF; vertical-align: top;border-bottom: 1px solid #D2D2D2;">
+<div>
+</div>
+2 x General Admission<div>
+</div>
+</th>
+<th style="width: 30%; font-weight: lighter; font-family: Helvetica, Arial, 'Roboto'; font-size: 16px; line-height: 24px; mso-height-rule: exactly; color: #232323; padding: 12px 0; text-align: right; background-color:#FFFFFF; vertical-align: top;border-bottom: 1px solid #D2D2D2;">
+&pound;27.50</th>
+</tr>
+<tr style="font-weight: normal;">
+<th style="width: 70%; font-weight: lighter; font-family: Helvetica, Arial, 'Roboto'; font-size: 16px; line-height: 24px; mso-height-rule: exactly; color: #232323; padding: 12px 0; text-align: left; background-color:#FFFFFF; vertical-align: top; border-bottom: 1px solid #D2D2D2;">
+Including booking fee</th>
+<th style="width: 30%; font-weight: lighter; font-family: Helvetica, Arial, 'Roboto'; font-size: 16px; line-height: 24px; mso-height-rule: exactly; color: #232323; padding: 12px 0; text-align: right; background-color:#FFFFFF; vertical-align: top; border-bottom: 1px solid #D2D2D2;">
+&pound;2.50 <span style="white-space:nowrap">
+per ticket</span>
+</th>
+</tr>
+<tr style="font-weight: normal;">
+<th style="width: 70%; font-weight: lighter; font-family: Helvetica, Arial, 'Roboto'; font-size: 16px; line-height: 24px; mso-height-rule: exactly; color: #232323; padding: 12px 0; text-align: left; background-color:#FFFFFF; vertical-align: top; border-bottom: 1px solid #D2D2D2;">
+Transaction Fee</th>
+<th style="width: 30%; font-weight: lighter; font-family: Helvetica, Arial, 'Roboto'; font-size: 16px; line-height: 24px; mso-height-rule: exactly; color: #232323; padding: 12px 0; text-align: right; background-color:#FFFFFF; vertical-align: top; border-bottom: 1px solid #D2D2D2;">
+&pound;2.50</th>
+</tr>
+<tr style="font-weight: normal;">
+<th style="width: 70%; font-weight: lighter; font-family: Helvetica, Arial, 'Roboto'; font-size: 16px; line-height: 24px; mso-height-rule: exactly; color: #232323; padding: 12px 0; text-align: left; background-color:#FFFFFF; vertical-align: top;border-bottom: 1px solid #D2D2D2;">
+Total</th>
+<th style="width: 30%; font-weight: lighter; font-family: Helvetica, Arial, 'Roboto'; font-size: 16px; line-height: 24px; mso-height-rule: exactly; color: #232323; padding: 12px 0; text-align: right; background-color:#FFFFFF; vertical-align: top;border-bottom: 1px solid #D2D2D2;">
+&pound;57.50</th>
+</tr>
+</table>
+</th>
+</tr>
+<tr style="font-weight: normal;">
+<th style="font-weight: lighter; font-family: Helvetica, Arial, 'Roboto'; font-size: 16px; line-height: 24px; mso-height-rule: exactly; color: #232323; padding: 20px 10px 20px 10px; text-align: left; background-color:#FFFFFF; vertical-align: top;">
+You have been charged a total of &pound;57.50 via PayPal. You will receive a separate email from PayPal with further details
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<tr style="background-color: #F1F1F1; height: 10px; width: 100%;">
+<th>
+</th>
+</tr>
+<tr class="main-promo-one">
+<th align="center" valign="top" style="padding: 0;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+<tr>
+<th style="text-align: left; font-weight: normal; padding: 10px 0; font-size: 22px; line-height: 28px;background-color:#FFFFFF;padding: 30px 10px 30px 10px;">
+<div>
+Ticket delivery</div>
+<img style="display:block;" src="https://c.ststat.net/content/sites/seetickets/images/email/heading-border-bg-white.gif" width="40" height="12" alt="----">
+</th>
+</tr>
+<tr style="font-weight: normal;">
+<th style="font-weight: lighter; font-family: Helvetica, Arial, 'Roboto'; font-size: 16px; line-height: 24px; mso-height-rule: exactly; color: #232323; padding: 0 10px 50px 10px; text-align: left; background-color:#FFFFFF; vertical-align: top;">
+<p>
+Tickets will be despatched as soon as possible, but may not be received until the week of the event. If you have not received your tickets in the post, please contact us no later than two working days before the show date.</p>
+<p>
+To use our Live Chat service or to check the status of your order, change your delivery address and contact us, please visit our
+<a href="http://www.seetickets.com/CustomerService" style="color: #0C9A9A;font-family: Helvetica, Arial, 'Roboto';text-decoration:none;">
+customer service area.</a>
+</p>
+</th>
+</tr>
+</table>
+</th>
+</tr>
+<tr style="background-color: #F1F1F1; height: 10px; width: 100%;">
+<th>
+</th>
+</tr>
+<tr class="main-promo-one">
+<th align="center" valign="top" style="padding: 0;">
+<table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+<tr style="font-weight: normal;">
+<th style="font-weight: lighter; font-family: Helvetica, Arial, 'Roboto'; font-size: 16px; line-height: 24px; mso-height-rule: exactly; color: #232323; padding: 0 10px 50px 10px; text-align: left; background-color:#FFFFFF; vertical-align: top;">
+<p>
+This event has the following age restriction: 14+ only</p>
+<p>
+This order is subject to our
+<a href="http://www.seetickets.com/Content/Terms-and-Conditions" style="color: #0C9A9A;font-family: Helvetica, Arial, 'Roboto';text-decoration:none;">
+terms and conditions.</a>
+</p>
+<p>
+<a href="https://www.seetickets.com/register/st?src=MK_ConfAdSpotify">
+<img src="https://c.ststat.net/content/emails/images/footers/ROCK.jpg"width="600" style="max-width:100%; width:100%">
+</a>
+</p>
+</th>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+<table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#001926" width="640" class="email-container">
+<tr class="see-footer" style="background-color:#001926;">
+<th align="center" style="">
+<table cellspacing="0" cellpadding="0" border="0" width="100%" height="100%">
+<tr style="text-align: center;">
+<th style="text-align: center; padding: 30px 25px;width:3%;">
+</th>
+<th style="padding: 30px 0px;width: 94%;font-size: 16px; font-family: Helvetica, Arial, 'Roboto', Verdana; mso-height-rule: exactly; line-height:18px; text-align: center; color: #F1F1F1;font-weight: normal;">
+FOLLOW US
+<br>
+<br>
+<a class="social-links" href="http://twitter.com/seetickets" style="text-decoration: none;">
+<img border="0" src="https://c.ststat.net/content/sites/seetickets/images/email/email-twitter.gif" alt="Like See Tickets on Facebook">
+</a>
+<span class="social-links-spacer" style="display:inline-block;">
+&#32;</span>
+<a class="social-links" href="http://www.facebook.com/seetickets" style="text-decoration: none;">
+<img border="0" src="https://c.ststat.net/content/sites/seetickets/images/email/email-fbook.gif" alt="Follow See Tickets twitter">
+</a>
+<span class="social-links-spacer" style="display:inline-block;">
+&#32;</span>
+<a class="social-links" href="https://plus.google.com/+seetickets" style="text-decoration: none;">
+<img border="0" src="https://c.ststat.net/content/sites/seetickets/images/email/email-gplus.gif" alt="Add See Tickets to your Google+ circles">
+</a>
+<span class="social-links-spacer" style="display:inline-block;">
+&#32;</span>
+<a class="social-links" href="http://instagram.com/seetickets" style="text-decoration: none;">
+<img border="0" src="https://c.ststat.net/content/sites/seetickets/images/email/email-instagram.gif" alt="Follow us on Instagram">
+</a>
+<span class="social-links-spacer" style="display:inline-block;">
+&#32;</span>
+<a class="social-links" href="http://open.spotify.com/user/seetickets" style="text-decoration: none;">
+<img border="0" src="https://c.ststat.net/content/sites/seetickets/images/email/email-spotify.gif" alt="Follow See Tickets twitter">
+</a>
+<span class="social-links-spacer" style="display:inline-block;">
+&#32;</span>
+<a class="social-links" href="http://blog.seetickets.com" style="text-decoration: none;">
+<img border="0" src="https://c.ststat.net/content/sites/seetickets/images/email/email-blog.gif" alt="Visit the See Blog">
+</a>
+</th>
+<th style="text-align: center; padding: 30px 25px;width:3%;">
+</th>
+</tr>
+<tr style="color: #FFFFFF;text-align: left; font-weight: normal; ">
+<th style="text-align: center; padding: 30px 25px;width:3%;">
+</th>
+<th style="border-top: 1px solid #757575;padding: 30px 0;width: 94%;font-size: 14px; font-family: Helvetica, Arial, 'Roboto', Verdana; font-weight: lighter; mso-height-rule: exactly; line-height:18px; text-align: left!important; color: #FFFFFF;">
+See is a registered trademark of See Group Ltd
+</th>
+<th style="text-align: center; padding: 30px 25px;width:3%;">
+</th>
+</tr>
+</table>
+</th>
+</tr>
+</table>
+</center>
+</th>
+</tr>
+</table>
+<script type="application/ld+json">
+ { "@context": "http://schema.org", "@type": "EventReservation", "reservationNumber": "11112222", "underName": { "@type": "Person", "name": "MR GEORGE MICHAEL" }, "reservationFor": { "@type": "Event", "name": "WHITE LIES", "performer": { "@type": "Person", "name": "WHITE LIES" }, "startDate": "2019-02-08T18:00:00+00:00", "location": { "@type": "Place", "name": "Albert Hall", "address": { "@type": "PostalAddress", "streetAddress": "27 Peter Street", "addressLocality": "Manchester", "addressRegion": " Manchester", "postalCode": "M2 5QR", "addressCountry": "GB" } } } } </script>
+<script type="application/ld+json">
+ { "@context": "http://schema.org", "@type": "EmailMessage", "action": { "@type": "ViewAction", "url": "https://www.seetickets.com/customerservice/?PostcodeOrPaymentCardLastFourDigits=M33BZ&ReferenceNumber=11112222", "name": "Track Order" }, "description": "Track Order" } </script>
+</body>
+</html>
+

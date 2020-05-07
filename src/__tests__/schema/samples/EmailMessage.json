@@ -1,0 +1,10 @@
+{
+  "@context": "http://schema.org",
+  "@type": "EmailMessage",
+  "action": {
+    "@type": "ViewAction",
+    "url": "https://www.seetickets.com/customerservice/?PostcodeOrPaymentCardLastFourDigits=M33BZ&ReferenceNumber=11112222",
+    "name": "Track Order"
+  },
+  "description": "Track Order"
+}

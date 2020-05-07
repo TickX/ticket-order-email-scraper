@@ -1,0 +1,29 @@
+{
+  "name": "email-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/mailparser": "^2.7.2",
+    "@types/cheerio": "^0.22.18",
+    "@types/lodash": "^4.14.150",
+    "jest": "^25.5.2",
+    "ts-jest": "^25.4.0",
+    "tslint": "^6.1.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dayjs": "^1.8.26",
+    "lodash": "^4.17.15",
+    "mailparser": "^2.7.7",
+    "schema-dts": "^0.5.2"
+  }
+}
